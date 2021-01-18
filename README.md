@@ -15,9 +15,9 @@
      */
     $cowtransfer = new cowtransfer(); 
 
-    //登录 并 查询 存储大小
-    // echo $cowtransfer->Login("430972921@qq.com","imitator")->info();  
-    $cowtransfer->Login("430972921@qq.com","imitator");
+    //登录 并 查询 存储大小          账户              密码
+    // echo $cowtransfer->Login("430272991@qq.com","12345678")->info();  
+    $cowtransfer->Login("430272991@qq.com","12345678");
     echo $cowtransfer->info();
 
     echo '<hr>';

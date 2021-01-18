@@ -1,3 +1,3 @@
 # cowtransfer-API
 
-##奶牛快传 API PHP
+奶牛快传 API PHP

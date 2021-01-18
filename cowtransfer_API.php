@@ -30,7 +30,7 @@
                 'method'=>'GET',
                 'url'=>"https://cowtransfer.com/space/in/info"
             ];
-            print_r(self::Curl($config));
+            return self::Curl($config);
          
         }
 
@@ -39,7 +39,7 @@
                 'method'=>'GET',
                 'url'=>sprintf("https://cowtransfer.com//space?guid=%s",$guid?$guid:"")."&page=0&sort=fileName%20asc"
             ];
-            print_r(self::Curl($config));
+            return self::Curl($config);
         }
 
         function Download_file($guid){
@@ -51,7 +51,7 @@
                 'method'=>'GET',
                 'url'=>sprintf("https://cowtransfer.com/space/in/file/download?guid=%s",$guid)
             ];
-            print_r(self::Curl((strlen(self::$header[9])>40)?$config_SignIn:$config_NotLoggedIn));
+            return self::Curl((strlen(self::$header[9])>40)?$config_SignIn:$config_NotLoggedIn);
         }
 
         function Download_Bale(){}

@@ -25,7 +25,7 @@ use cowtransfer_API\cowtransfer;
     $cowtransfer->Login("433972421@qq.com","12345678");
     $cowtransfer->info();
     $cowtransfer->TableOfContents();
-    $cowtransfer->Download_file("6d346560-7e40-43ac-b327-cb83a781e7a7");
+    $cowtransfer->Download_file("1d9e2796-df68-4ce4-a43d-5e8454814445");
 
 
 /**
@@ -34,5 +34,5 @@ use cowtransfer_API\cowtransfer;
     cowtransfer::Login("433972421@qq.com","12345678");
     cowtransfer::info();
     cowtransfer::TableOfContents();
-    cowtransfer::Download_file("6d346560-7e40-43ac-b327-cb83a781e7a7");
+    cowtransfer::Download_file("1d9e2796-df68-4ce4-a43d-5e8454814445");
 ```

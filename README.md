@@ -5,6 +5,8 @@
 
 ```php
 /**
+ *      登录模块    cowtransfer::Login("邮箱","密码")       
+ *
  *      需要登录的模块
  *      存储大小:   cowtransfer::info()     
  *      查看根目录: cowtransfer::TableOfContents()  

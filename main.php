@@ -24,7 +24,7 @@ use cowtransfer_API\cowtransfer;
 /**
  *      静态  cowtransfer::
  */
-    cowtransfer::Login("430972921@qq.com","imitator");
+    cowtransfer::Login("433972421@qq.com","12345678");
     cowtransfer::info();
     cowtransfer::TableOfContents();
     cowtransfer::Download_file("6d346560-7e40-43ac-b327-cb83a781e7a7");

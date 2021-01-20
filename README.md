@@ -11,6 +11,8 @@
  * 
  *      无需登录的模块
  *      下载:      cowtransfer::Download_file('guid') 
+ *
+ *      【☢后续更新中☢】
  */
 
 include "./cowtransfer_API.php";
